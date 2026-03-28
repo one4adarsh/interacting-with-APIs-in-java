@@ -16,6 +16,9 @@ repositories {
 }
 
 dependencies {
+    // For JSON parsing, we use the Gson library
+    implementation("com.google.code.gson:gson:2.12.1")
+
     // Use JUnit test framework.
     testImplementation(libs.junit)
 
